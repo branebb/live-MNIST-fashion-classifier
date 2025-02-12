@@ -1,0 +1,9 @@
+>>> from .model_architecture import FashionMNIST_CNN, BaseModel
+
+>>> model = FashionMNIST_CNN()
+
+>>> isinstance(model, FashionMNIST_CNN)
+True
+
+>>> isinstance(model, BaseModel)
+True

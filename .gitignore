@@ -1,0 +1,9 @@
+__pycache__/
+data/
+lmfc/
+
+model_pipeline/__pycache__/
+model_pipeline/data/
+
+ui_pipeline/__pycache__/
+ui_pipeline/data/

@@ -1,0 +1,12 @@
+>>> import torchvision.transforms as transforms
+>>> from .dataset import get_transforms
+
+>>> transform = get_transforms()
+>>> transform
+Compose(
+    ToTensor()
+    Normalize(mean=(0.5,), std=(0.5,))
+)
+
+>>> isinstance(transform, transforms.Compose)
+True

@@ -1,0 +1,14 @@
+>>> from .dataset import get_dataloader
+>>> from torch.utils.data import DataLoader
+
+>>> train_loader = get_dataloader(32, train=True)
+
+>>> isinstance(train_loader, DataLoader)
+True
+
+>>> len(train_loader.dataset)
+60000
+
+>>> test_loader = get_dataloader(32, train=False)
+>>> len(test_loader.dataset)
+10000
