@@ -6,6 +6,6 @@ from .decorators import time_function
 @time_function
 def load_model() -> FashionMNIST_CNN:
     model: FashionMNIST_CNN = FashionMNIST_CNN().to(DEVICE)
-    model.load_state_dict(torch.load(MODEL_PATH))
+    model.load_state_dict(torch.load(MODEL_PATH, map_location=DEVICE))
     model.eval()
     return model
