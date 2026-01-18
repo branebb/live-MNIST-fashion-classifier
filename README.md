@@ -56,3 +56,16 @@ The application leverages the **Fashion-MNIST dataset**, which contains **70,000
 > Optional for GPU acceleration:
 > - Install the CUDA-compatible PyTorch version.
 > - See [PyTorch Installation Guide](https://pytorch.org/get-started/locally/)
+
+## Installation Instructions
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/branebb/live-MNIST-fashion-classifier.git
+```
+
+
+
+
+
+
