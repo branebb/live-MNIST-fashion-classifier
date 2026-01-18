@@ -7,3 +7,5 @@ model_pipeline/data/
 
 ui_pipeline/__pycache__/
 ui_pipeline/data/
+
+.github/
