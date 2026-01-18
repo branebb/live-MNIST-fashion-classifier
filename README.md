@@ -64,8 +64,48 @@ The application leverages the **Fashion-MNIST dataset**, which contains **70,000
 git clone https://github.com/branebb/live-MNIST-fashion-classifier.git
 ```
 
+2. **Navigate to the project folder**
+```bash
+cd live-MNIST-fashion-classifier
+```
 
+3. **Create and activate a virtual environment**
+```bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# Linux/Mac
+source venv/bin/activate
+```
 
+4. **Upgrade pip**
+```bash
+python -m pip install --upgrade pip
+```
+
+5. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+6. **Run the application**
+```bash
+Run the application
+```
+
+---
+
+## Usage Instructions
+
+1. **Draw an item**: Use the canvas area to sketch a clothing item.  
+2. **Prediction updates**: The CNN analyzes your drawing and updates the predicted category every second.  
+3. **Adjust intensity**: Use the greyscale slider to change drawing intensity.
+
+### Example Screenshots
+
+#### Drawing and Prediction:
+![ss1](https://github.com/user-attachments/assets/28b71ebc-67ec-4206-8313-2e618704f351)
+![ss2](https://github.com/user-attachments/assets/b568138a-e8b9-4d05-87d4-c5492d56e6e3)
 
 
 
